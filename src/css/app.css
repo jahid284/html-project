@@ -453,10 +453,6 @@ footer .footer__widget__three .footer__social li a i {
   height: 230px;
   transform: translateY(50%);
 }
-.breadcrumbs .container-fluid {
-  padding-left: 60px;
-  padding-right: 60px;
-}
 .breadcrumbs__nav li {
   position: relative;
   margin-right: 32px !important;
@@ -487,10 +483,22 @@ footer .footer__widget__three .footer__social li a i {
   color: #00D5FF;
 }
 
+.category__intro {
+  max-width: 750px;
+}
+
 .blog__page .icon {
   color: #000;
 }
 
 .blog__page .button__container span {
   background: #000;
+}
+
+@media (min-width: 767px) {
+  .breadcrumbs .container-fluid,
+  .category__intro .container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
