@@ -44,6 +44,10 @@ a:hover, a:focus {
   background: transparent;
 }
 
+body.overlay-body h1, h2, h3 {
+  color: #fff !important;
+}
+
 body {
   background: #Fff;
 }
@@ -268,7 +272,7 @@ header .header__menu__list .brand img {
   }
 
   .search {
-    width: 100%;
+    width: 70%;
     left: 95px;
   }
 

@@ -43,3 +43,7 @@ a:hover, a:focus {
 .blog__post__content:hover .blog__post__thumb::before {
   background: transparent;
 }
+
+body.overlay-body h1, h2, h3 {
+  color: #fff !important;
+}
