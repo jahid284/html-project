@@ -5,6 +5,7 @@ jQuery(function($) {
         $(this).toggleClass('active');
         $('#overlay').toggleClass('open');
         $('#overlay-search').toggleClass('open');
+        $('body').toggleClass('overlay-body');
         $('.search').removeClass('expanded');
     });
 
@@ -16,6 +17,7 @@ jQuery(function($) {
         $('#toggle').addClass('active');
         $('#overlay').addClass('open');
         $('.search').addClass('expanded');
+        $('body').addClass('overlay-body');
 
     });
 

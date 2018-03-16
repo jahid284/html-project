@@ -60,6 +60,9 @@
 .blog__page .icon {
   color: #000;
 }
+.overlay-body.blog__page .icon {
+  color: #fff !important;
+}
 .blog__page .button__container span {
   background: #000;
 }
