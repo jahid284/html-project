@@ -449,6 +449,14 @@ footer .footer__widget__three .footer__social li a i {
   border-top-color: #00D5FF;
 }
 
+.blog__page h1, .blog__page h2, .blog__page h3 {
+  color: #000;
+}
+.blog__page p {
+  color: #000;
+  margin-bottom: 45px;
+}
+
 .breadcrumbs {
   margin-top: 110px;
   height: 230px;
