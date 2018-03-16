@@ -51,28 +51,28 @@ jQuery(function($) {
     // Sticky Menu
     // -------------------------------------------------------------
 
-    (function () {
-        var nav = $('.header__menu');
-        var scrolled = false;
+    // (function () {
+    //     var nav = $('.header__menu');
+    //     var scrolled = false;
 
-        $(window).scroll(function () {
+    //     $(window).scroll(function () {
 
-            if (500 < $(window).scrollTop() && !scrolled) {
-                nav.addClass('sticky').animate({
-                    'margin-top': '0px'
-                });
+    //         if (500 < $(window).scrollTop() && !scrolled) {
+    //             nav.addClass('sticky').animate({
+    //                 'margin-top': '0px'
+    //             });
 
-                scrolled = true;
-            }
+    //             scrolled = true;
+    //         }
 
-            if (500 > $(window).scrollTop() && scrolled) {
-                nav.removeClass('sticky').css('margin-top', '0px');
+    //         if (500 > $(window).scrollTop() && scrolled) {
+    //             nav.removeClass('sticky').css('margin-top', '0px');
 
-                scrolled = false;
-            }
-        });
+    //             scrolled = false;
+    //         }
+    //     });
 
-    }());
+    // }());
    
 
 }); // JQuery end

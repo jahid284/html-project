@@ -1,82 +1,35 @@
-/*
-Error: Undefined variable: "$c-black".
-        on line 7 of /mnt/c/xampp/htdocs/html-project/barango/src/scss/blog-post.scss
+.blog__post__block {
+  display: block;
+  padding-left: 15%;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.blog__post__block .blog__post__title {
+  color: #000;
+}
+.blog__post__block p {
+  color: #000;
+}
 
-2:   display: block;
-3:   padding-left: 15%;
-4:   padding-top: 75px;
-5:   padding-bottom: 50px;
-6:   .blog__post__title {
-7:     color: $c-black;
-8:   }
-9:   p {
-10:     color: $c-black;
-11:   }
-12: }
-
-Backtrace:
-/mnt/c/xampp/htdocs/html-project/barango/src/scss/blog-post.scss:7
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/home/jahid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$c-black\".\A         on line 7 of /mnt/c/xampp/htdocs/html-project/barango/src/scss/blog-post.scss\A \A 2:   display: block;\A 3:   padding-left: 15%;\A 4:   padding-top: 75px;\A 5:   padding-bottom: 50px;\A 6:   .blog__post__title {\A 7:     color: $c-black;\A 8:   }\A 9:   p {\A 10:     color: $c-black;\A 11:   }\A 12: }"; }
+.read__more {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-size: 20px;
+  position: relative;
+}
+.read__more::after {
+  left: 0%;
+  right: 100%;
+  bottom: -0.5em;
+  content: "";
+  position: absolute;
+  border-top: 0.14em solid;
+  transition: all 0.2s ease-out;
+}
+.read__more:hover::after {
+  left: 0;
+  right: 0;
+  border-top-color: #00D5FF;
+}

@@ -276,6 +276,7 @@ header .header__menu__list .brand img {
   position: absolute;
   bottom: 75px;
   left: 70px;
+  right: 20px;
   color: #fff;
   display: block;
 }
